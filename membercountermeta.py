@@ -27,7 +27,7 @@ async def main_MemberCounterMeta():
         try:
             while True:
                 print(text_2)
-                edit_message_text_teletips = "**🔱 SCIENCE-EDU TEAM ALL PUBLIC GROUPS & CHANNELS ©️\n\n🟰🟰🟰🟰🟰🟰🟰🟰🟰🟰🟰🟰🟰🟰🟰**"
+                edit_message_text_teletips = "**🔱 SCIENCE-EDU TEAM 🔱\n\nALL PUBLIC GROUPS & CHANNELS ©️\n\n🟰🟰🟰🟰🟰🟰🟰🟰🟰🟰🟰🟰🟰🟰🟰**"
                 for CHANNEL_OR_GROUP in CHANNEL_OR_GROUP_LIST:
                     try:
                         get_chat_teletips = await MemberCounterMeta.get_chat(int(CHANNEL_OR_GROUP))   
